@@ -6,7 +6,7 @@ import time, threading
 
 # 新线程执行的代码
 def loop():
-    print("Threading running: {name}".format(name=threading.current_thread().name))
+    print("Threading running: {name}".format(nam=threading.current_thread().name))
 
     for i in range(5):
         print('Threading {name} >>> {index}'.format(name=threading.current_thread().name, index=i))
